@@ -98,7 +98,7 @@ avatar.addEventListener('click', function () {
 });
 
 dockIcon.addEventListener('click', function () {
-	sidebar.classList.toggle('sidebartoggle');
+	sidebar.classList.toggle('show');
 });
 
 const baseUrl = 'https://jsonplaceholder.typicode.com/posts';

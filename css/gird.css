@@ -31,9 +31,9 @@ body {
 	padding: 64px 24px;
 }
 
-.di1.sidebartoggle {
+/* .di1.sidebartoggle {
 	display: none;
-}
+} */
 /* 
 BAD STYLE
 .di1 ul {
@@ -182,9 +182,9 @@ nav .avatar img {
 	.grid-container {
 		grid-template-columns: 1fr;
 	}
+
 	.di1 {
 		display: none;
-
 		position: relative;
 
 		width: 240px;
@@ -200,6 +200,15 @@ nav .avatar img {
 		width: 240px;
 		z-index: 1000;
 	}
+	/* .di1.sidebartoggle {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		position: relative;
+
+		width: 240px;
+		z-index: 1000;
+	} */
 	.div2 {
 		width: 100%;
 		background-color: #f6f6f6;
